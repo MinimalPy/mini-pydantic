@@ -26,6 +26,13 @@ def test_basic_validation():
     assert user.friends == [1, 2]
 ```
 
+and from the root of the project
+
+```bash
+source .venv/bin/activate
+python3 -m pytest
+```
+
 ## Contributing
 
 Contributions are welcome.
